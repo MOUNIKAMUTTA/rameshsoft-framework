@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-07T17:54:33 IST" name="Suite" finished-at="2023-03-07T17:54:44 IST" duration-ms="10226">
+    <groups>
+    </groups>
+    <test started-at="2023-03-07T17:54:33 IST" name="Test" finished-at="2023-03-07T17:54:44 IST" duration-ms="10226">
+      <class name="com.rameshsoft.automation.application.businessscripts.OpencartTestCase">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:com.rameshsoft.automation.application.businessscripts.OpencartTestCase@54a7079e]" started-at="2023-03-07T17:54:32 IST" name="openBrowser" finished-at="2023-03-07T17:54:33 IST" duration-ms="1226" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="initReports()[pri:0, instance:com.rameshsoft.automation.application.businessscripts.OpencartTestCase@54a7079e]" started-at="2023-03-07T17:54:33 IST" name="initReports" finished-at="2023-03-07T17:54:34 IST" duration-ms="147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initReports -->
+        <test-method is-config="true" signature="beforeTCExecution(java.lang.reflect.Method)[pri:0, instance:com.rameshsoft.automation.application.businessscripts.OpencartTestCase@54a7079e]" started-at="2023-03-07T17:54:34 IST" name="beforeTCExecution" finished-at="2023-03-07T17:54:34 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.rameshsoft.automation.application.businessscripts.OpencartTestCase.verifyLaptopNoteBooksCount() throws com.rameshsoft.customisedexceptions.FrameWorkException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTCExecution -->
+        <test-method signature="verifyLaptopNoteBooksCount()[pri:0, instance:com.rameshsoft.automation.application.businessscripts.OpencartTestCase@54a7079e]" started-at="2023-03-07T17:54:34 IST" name="verifyLaptopNoteBooksCount" finished-at="2023-03-07T17:54:42 IST" duration-ms="8477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLaptopNoteBooksCount -->
+        <test-method is-config="true" signature="afterTCExecution(org.testng.ITestResult)[pri:0, instance:com.rameshsoft.automation.application.businessscripts.OpencartTestCase@54a7079e]" started-at="2023-03-07T17:54:42 IST" name="afterTCExecution" finished-at="2023-03-07T17:54:42 IST" duration-ms="192" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLaptopNoteBooksCount status=SUCCESS method=OpencartTestCase.verifyLaptopNoteBooksCount()[pri:0, instance:com.rameshsoft.automation.application.businessscripts.OpencartTestCase@54a7079e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTCExecution -->
+        <test-method is-config="true" signature="beforeTCExecution(java.lang.reflect.Method)[pri:0, instance:com.rameshsoft.automation.application.businessscripts.OpencartTestCase@54a7079e]" started-at="2023-03-07T17:54:42 IST" name="beforeTCExecution" finished-at="2023-03-07T17:54:42 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.rameshsoft.automation.application.businessscripts.OpencartTestCase.verifyMainHeaders() throws com.rameshsoft.customisedexceptions.FrameWorkException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTCExecution -->
+        <test-method signature="verifyMainHeaders()[pri:0, instance:com.rameshsoft.automation.application.businessscripts.OpencartTestCase@54a7079e]" started-at="2023-03-07T17:54:42 IST" name="verifyMainHeaders" finished-at="2023-03-07T17:54:44 IST" duration-ms="1289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMainHeaders -->
+        <test-method is-config="true" signature="afterTCExecution(org.testng.ITestResult)[pri:0, instance:com.rameshsoft.automation.application.businessscripts.OpencartTestCase@54a7079e]" started-at="2023-03-07T17:54:44 IST" name="afterTCExecution" finished-at="2023-03-07T17:54:44 IST" duration-ms="62" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyMainHeaders status=SUCCESS method=OpencartTestCase.verifyMainHeaders()[pri:0, instance:com.rameshsoft.automation.application.businessscripts.OpencartTestCase@54a7079e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTCExecution -->
+        <test-method is-config="true" signature="closeReports()[pri:0, instance:com.rameshsoft.automation.application.businessscripts.OpencartTestCase@54a7079e]" started-at="2023-03-07T17:54:44 IST" name="closeReports" finished-at="2023-03-07T17:54:44 IST" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeReports -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.rameshsoft.automation.application.businessscripts.OpencartTestCase@54a7079e]" started-at="2023-03-07T17:54:44 IST" name="closeBrowser" finished-at="2023-03-07T17:55:00 IST" duration-ms="16263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.rameshsoft.automation.application.businessscripts.OpencartTestCase -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<parameter name="browser" value="chrome"></parameter>
+	<listeners> 
+		<listener
+			 class-name="com.rameshsoft.automation.listeners.TestCaseActivityAdapter" >
+		</listener>
+	</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.rameshsoft.automation.application.businessscripts.OpencartTestCase"/>
+    
+  <!--<class name="com.rameshsoft.automation.application.businessscripts.FpTest"/>
+      <class name="com.rameshsoft.automation.application.businessscripts.FbTest"/>
+      <class name="com.rameshsoft.automation.application.businessscripts.InstTest"/>-->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
